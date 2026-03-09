@@ -25,7 +25,7 @@ This project was developed as part of a core analog IC design portfolio.
 *(Note: Upload your screenshot images to your GitHub repo, then update the file names below to display them here!)*
 
 ### 1. Complete Schematic
-![Op-Amp Schematic](link-to-your-schematic-image.png)
+![Op-Amp Schematic](2stage_opamp.pdf)
 *Complete circuit diagram including the differential pair, common-source stage, and output buffer.*
 
 ### 2. AC Analysis (Bode Plot)
