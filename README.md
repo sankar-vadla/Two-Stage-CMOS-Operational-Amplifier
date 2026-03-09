@@ -25,15 +25,15 @@ This project was developed as part of a core analog IC design portfolio.
 *(Note: Upload your screenshot images to your GitHub repo, then update the file names below to display them here!)*
 
 ### 1. Complete Schematic
-![Op-Amp Schematic](2stage_opamp.pdf)
+![Op-Amp Schematic](circuit_diagram.pdf)
 *Complete circuit diagram including the differential pair, common-source stage, and output buffer.*
 
 ### 2. AC Analysis (Bode Plot)
-![Bode Plot](link-to-your-bode-plot-image.png)
+![Bode Plot](bode_plot.pdf)
 *Open-loop frequency response showing 117 dB gain and smooth -20dB/decade roll-off.*
 
 ### 3. Transient Analysis (Slew Rate)
-![Transient Response](link-to-your-transient-image.png)
+![Transient Response](transient_response.pdf)
 *Closed-loop step response showing a slew rate of 0.81 V/µs with minimal overshoot.*
 
 ## How to Run the Simulations
