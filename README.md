@@ -22,18 +22,17 @@ This project was developed as part of a core analog IC design portfolio.
 * **Large-Signal Transient Response:** Verified slew rate and step response by wiring the amplifier in a closed-loop unity-gain buffer configuration and driving it with a sharp 0.4V to 1.4V square wave pulse. 
 
 ## Simulation Results
-*(Note: Upload your screenshot images to your GitHub repo, then update the file names below to display them here!)*
 
 ### 1. Complete Schematic
-![Op-Amp Schematic](circuit_diagram.pdf)
+![Op-Amp Schematic](circuit_diagram.png)
 *Complete circuit diagram including the differential pair, common-source stage, and output buffer.*
 
 ### 2. AC Analysis (Bode Plot)
-![Bode Plot](bode_plot.pdf)
+![Bode Plot](bode_plot.png)
 *Open-loop frequency response showing 117 dB gain and smooth -20dB/decade roll-off.*
 
 ### 3. Transient Analysis (Slew Rate)
-![Transient Response](transient_response.pdf)
+![Transient Response](transient_response.png)
 *Closed-loop step response showing a slew rate of 0.81 V/µs with minimal overshoot.*
 
 ## How to Run the Simulations
