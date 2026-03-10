@@ -21,7 +21,7 @@ This repository contains the transistor-level design and LTspice simulation file
 
 ---
 
-## 🚀 Post-Submission Optimization: Lead Compensation (V2.0)
+## Post-Submission Optimization: Lead Compensation (V2.0)
 *Continuous improvement and advanced AC stability optimization.*
 
 Following the initial design phase, the circuit was further analyzed to address the slight transient ringing caused by the Right-Half-Plane (RHP) zero inherent in standard Miller compensation. 
@@ -29,7 +29,7 @@ Following the initial design phase, the circuit was further analyzed to address 
 * **The Upgrade:** A **10kΩ nulling resistor** was added in series with the 10 pF Miller capacitor to execute advanced Lead Compensation.
 * **The Result:** This successfully blocked the feed-forward path, pushing the RHP zero to the left half-plane.
 * **New Metrics:** The phase margin drastically improved to an industry-standard **63.4°**, resulting in a perfectly damped step response with a **0.68 V/µs slew rate** and absolute zero overshoot. 
-* *(Note: See `twostage_opamp_LeadComp.asc` and the V2.0 PDF plots in the repository files for this upgraded configuration).*
+* *(Note: See `twostage_opamp_LeadComp.asc` and the `version2.pdf` plots in the repository files for this upgraded configuration).*
 
 ---
 
